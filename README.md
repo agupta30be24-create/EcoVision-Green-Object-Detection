@@ -91,27 +91,27 @@ EcoVision achieves **40-45% reduction in energy consumption** and **37-45% reduc
 
 ## 🚀 Implementation Roadmap
 
-### Phase 1: Data Collection & Preparation (5 Weeks)
+### Phase 1: Data Collection & Preparation
 - Download and process BDD100K and KITTI datasets
 - Custom annotation for EV-specific scenarios
 - Data augmentation pipeline implementation
 - **Deliverable**: 15,000-20,000 annotated images
 
-### Phase 2: Model Development & Training (8 Weeks)
+### Phase 2: Model Development & Training
 - Baseline YOLOv8 training
 - Custom lightweight architecture design
 - Multi-scale detection head implementation
 - FPIoU2 loss function integration
 - **Target**: mAP >90%, latency <50ms
 
-### Phase 3: Green AI Optimization (5 Weeks)
+### Phase 3: Green AI Optimization
 - INT8 quantization implementation
 - Structured pruning (40-60% reduction)
 - Knowledge distillation
 - Carbon footprint tracking with CodeCarbon
 - **Target**: 40-45% energy reduction
 
-### Phase 4: Deployment & Testing (5 Weeks)
+### Phase 4: Deployment & Testing
 - Framework conversion (PyTorch → ONNX → TFLite)
 - Edge device deployment
 - Solar-powered field testing
